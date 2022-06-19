@@ -54,6 +54,7 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin-bottom: 10px;
 }
 .group:nth-child(1){
     min-height: 19rem;
@@ -133,6 +134,12 @@ footer{
 }
 
 @media (max-width: 650px){
+    body{
+       background-color: #ffffff; 
+    }
+    .group{
+        border: 1px solid transparent;
+    }
     .instagram-wrapper{
         width: 90%;
     }
